@@ -1,0 +1,1 @@
+{"dim": 256, "n_heads": 4, "attn_dropout": 0.1, "mlp_dropout": 0.1, "depth": 4, "max_len": 168, "pad_token_id": -100, "mask_token_id": 100.0, "vocab_size": 6, "num_static_features": 0}
