@@ -21,7 +21,7 @@ python src/data_utils.py
 ```
 ### Data Description
 
-This data set includes hourly air pollutants data from 12 nationally-controlled air-quality monitoring sites. 
+This data set includes hourly air pollutants data from 12 nationally controlled air-quality monitoring sites in Beijing. 
 
 - Hourly time series of six important air pollutants - PM2.5, PM10, SO2, NO2, CO, and O3 is used for imputation. 
 - Time series, grouped by their monitoring site, are split into weekly segments (168 hours). 
