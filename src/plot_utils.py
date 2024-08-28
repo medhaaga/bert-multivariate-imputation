@@ -29,7 +29,7 @@ def plot_missing_acc_data(test, mask):
     time = torch.arange(len(test))
 
     # # Plot the time series data
-    plt.figure(figsize=(10, 4))
+    plt.figure(figsize=(12, 4))
     cmap = plt.get_cmap('Set2') 
     temporal_cols = ['PM2.5', 'PM10', 'SO2', 'NO2', 'CO', 'O3']
     
@@ -68,7 +68,7 @@ def plot_imputed_acc_data(test, mask, static, model, device, mask_token):
     time = torch.arange(len(test))
 
     # Plot the time series data
-    plt.figure(figsize=(10, 4))
+    plt.figure(figsize=(12, 4))
     cmap = plt.get_cmap('Set2') 
     temporal_cols = ['PM2.5', 'PM10', 'SO2', 'NO2', 'CO', 'O3']
 
@@ -89,7 +89,7 @@ def plot_imputed_acc_data(test, mask, static, model, device, mask_token):
     plt.ylabel(r'Concentration $[\mu g/ m^3]$')
 
     handles, labels = plt.gca().get_legend_handles_labels()
-    plt.legend(handles, labels, loc='lower center', bbox_to_anchor=(0.5, -0.3), ncol=7)
+    plt.legend(handles, labels, loc='lower center', bbox_to_anchor=(0.5, -0.5), ncol=7)
     plt.tight_layout()
     plt.show()
 
